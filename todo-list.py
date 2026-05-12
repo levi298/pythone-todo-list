@@ -34,7 +34,7 @@ while True:
             tasks.append(text)
             print("added:", text)
         else:
-            print("please enter a non-empty task.")
+            print("please enter something .")
 
     elif choice == "2":
         if not tasks:
